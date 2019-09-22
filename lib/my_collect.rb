@@ -7,7 +7,7 @@ def my_collect(array)
     i +=1
   end
 end
-
-my_collection(["Tim Jones", "Tom Smith", "Jim Campagno"]) do |name|
+ex_array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+my_collection(ex_array) do |name|
   name.split.first
 end
